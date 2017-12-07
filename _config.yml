@@ -1,0 +1,36 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Nicolas Birckel - Web Designer
+email: nicolas@menschhh.com
+phone: 06.25.73.22.94
+agence: "https://www.menschhh.com"
+desc:  "Web Designer, j’ai 34 ans dont 9 ans d’expérience dans la communication et la conception web. Mes compétences couvrent de nombreux domaines de la chaine de création, avec une spécialisation dans l'experience utilisateur et le web."
+baseurl: "" # the subpath of your site, e.g. /blog
+
+url: "https://www.nicolas-birckel.fr" # the base hostname & protocol for your site
+twitter_username: nbirckel
+github_username:  
+
+timezone: EET # eg. Asia/Kathmandu
+locale: fr_FR # eg. en_us
+
+# Build settings
+markdown: kramdown
+#gems
+gems: [jekyll-paginate]
+# pagination
+paginate: 6
+paginate_path: "/page:num/"
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
+sass:
+    style: compressed

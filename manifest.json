@@ -1,0 +1,14 @@
+{
+  "name": "Nicolas Birckel - Web Designer",
+  "short_name": "Nicolas Birckel",
+  "lang": "fr",
+  "start_url": "/",
+  "display": "browser",
+  "theme_color": "#19AAD1",
+  "icons": [
+    {
+      "src": "https://www.nicolas-birckel.fr/assets/img/fs-0042.jpg"
+    }
+  ],
+  "background_color": "#fdfdfd"
+}

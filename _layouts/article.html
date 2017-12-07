@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+  {% include head.html %}
+  <body >
+    {% include header.html %}
+    {% if page.cover %}
+    <div style="display:block; background-size:cover;background-position:top center; background-image:url(/assets/img/{{page.cover}});background-repeat:no-repeat; height:500px"></div>
+    {% endif %}
+    <main class="page-content" role="main">
+      <div class="wrapper">
+        <!-- </div> -->
+        {{ content }}
+      </div>
+    </main>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
