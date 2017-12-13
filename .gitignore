@@ -1,0 +1,9 @@
+_site
+.sass-cache
+.jekyll-metadata
+_posts
+assets/
+sw.js
+_drafts
+.htaccess
+
